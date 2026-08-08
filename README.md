@@ -1,2 +1,3 @@
-# pegaconstellation-hub
-PegaConstellation Hub — Unified platform
+# PegaConstellation Hub
+
+Unified platform connecting research, security, and AI.
