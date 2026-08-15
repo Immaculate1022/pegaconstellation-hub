@@ -21,8 +21,16 @@
 ## Supporting Repositories
 
 - **[docs](https://github.com/Immaculate1022/docs)** — Central documentation hub
-- **[community](https://github.com/Immaculate1022/community)** — Governance, RFCs, discussions
+- **[community](https://github.com/Immaculate1022/community)** — Governance, RFCs, discussions, and the [AI Operations Charter](https://github.com/Immaculate1022/community/blob/main/AI-OPERATIONS.md)
 - **[research](https://github.com/Immaculate1022/research)** — Papers & whitepapers
+
+## Current Status
+
+See the living **[STATUS.md](STATUS.md)** for the latest pulse on health, packaging, and next steps.
+
+## Operating Mode
+
+Ongoing maintenance of the public artifacts is handled primarily by AI systems under the standing [AI Operations Charter](https://github.com/Immaculate1022/community/blob/main/AI-OPERATIONS.md). Human involvement is intentionally limited to only those actions that cannot be delegated.
 
 ---
 
