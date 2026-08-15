@@ -15,6 +15,7 @@
 | **[AHR-Endpoint](https://github.com/Immaculate1022/AHR-Endpoint)** | Adaptive Hollow Reflector — global immune system for endpoints. Sub-2s ransomware containment via behavioral invariants + NATS | Active · Rust |
 | **[aetherius-nexus](https://github.com/Immaculate1022/aetherius-nexus)** | Interactive physics research platform | Active |
 | **[moebius-llama](https://github.com/Immaculate1022/moebius-llama)** | Möbius-Llama — self-reflective transformer architecture for any LLM | Experimental |
+| **[tesseract-medium](https://github.com/Immaculate1022/tesseract-medium)** | 4D non-orientable fractal geometry (Möbius + Klein + φ + Mandelbrot) — runnable substrate for hierarchical indexing and orientation-aware transport | Active · v0.1 |
 | **[iof-design-grammar](https://github.com/Immaculate1022/iof-design-grammar)** | Infinite Optical Fabric Design Grammar — systems philosophy framework | Active |
 | **[IOF-Resonant-Hardware](https://github.com/Immaculate1022/IOF-Resonant-Hardware)** | Portable sub-7Hz resonant hardware & antenna based on IOF principles | Prototype |
 
@@ -22,7 +23,7 @@
 
 - **[docs](https://github.com/Immaculate1022/docs)** — Central documentation hub
 - **[community](https://github.com/Immaculate1022/community)** — Governance, RFCs, discussions, and the [AI Operations Charter](https://github.com/Immaculate1022/community/blob/main/AI-OPERATIONS.md)
-- **[research](https://github.com/Immaculate1022/research)** — Papers & whitepapers
+- **[research](https://github.com/Immaculate1022/research)** — Papers & whitepapers (includes [Tesseract Medium Geometry](https://github.com/Immaculate1022/research/blob/main/tesseract-medium-geometry.md))
 
 ## Current Status
 
@@ -43,6 +44,7 @@ The architecture is identical. The scale is the only variable.
 - Endpoint-scale immune systems (AHR)
 - Soul resonance & autonomy gates
 - Urban-scale luminous grids
+- Non-orientable fractal media (Tesseract Medium)
 - Open-source by default, attribution required
 
 ## License

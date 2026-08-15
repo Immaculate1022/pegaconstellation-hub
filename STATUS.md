@@ -4,7 +4,7 @@
 
 ## Overall Health
 
-Public surface is now coherent: consistent licensing, improved READMEs across core and supporting repos, profile README present, central hub functional, AI Operations Charter established.
+Public surface is coherent: consistent licensing, improved READMEs, profile README present, central hub functional, AI Operations Charter established. New geometry substrate (`tesseract-medium`) is live and verified runnable.
 
 ## Core Projects
 
@@ -13,25 +13,33 @@ Public surface is now coherent: consistent licensing, improved READMEs across co
 | IOF-Resonance-Core | Strong | Primary showcase, docs, live demo |
 | AHR-Endpoint | Good | License + packaging improved; core logic is prototype-level |
 | aetherius-nexus | Good | README now project-specific |
-| moebius-llama | Good | Solid README + license |
+| moebius-llama | Good | Solid README + license; linked to geometry substrate |
 | iof-design-grammar | Good | Expanded |
 | IOF-Resonant-Hardware | Good | Spec present |
+| **tesseract-medium** | **Good** | **v0.1 shipped & verified** — lattice, Möbius dynamics, orientation tracker, examples |
 
 ## Supporting
 
 - `pegaconstellation-hub` — central map + status
-- `community` — now includes AI-OPERATIONS.md charter
-- `docs` / `research` — placeholder hubs, ready for growth
+- `community` — includes AI-OPERATIONS.md charter
+- `docs` / `research` — linked to tesseract geometry spec + code
 - Profile README (`Immaculate1022/Immaculate1022`) — live
 
 ## Current Operating Mode
 
 AI-first maintenance is authorized via the charter in the `community` repository. Human founder involvement is intentionally minimized to only those actions that cannot be delegated.
 
+## Recent Advances (2026-08-15)
+
+- Formalized **Tesseract Medium Geometry** specification in `research`
+- Shipped runnable **tesseract-medium** implementation (φ-lattice, Möbius-twisted Mandelbrot/Julia, orientation monodromy)
+- Examples verified: orientation reversal on twist seam, hierarchical indexing, image generation
+- Cross-linked from research, docs, moebius-llama, and this hub
+
 ## Next Natural Steps (AI-executable)
 
 - Further packaging and clarity on AHR and Möbius-Llama
-- Gradual enrichment of `docs` and `research` with links and summaries pulled from existing material
+- Optional deeper integration of tesseract-medium primitives into Möbius-Llama / IOF experiments
 - Keep hub and profile accurate as the constellation evolves
 - Prepare clear instructions for the few remaining human-only actions (org creation, pinning)
 
