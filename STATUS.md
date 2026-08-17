@@ -1,20 +1,20 @@
 # PegaConstellation Status Pulse
 
-**Last updated:** 2026-08-15 (AI-assisted)
+**Last updated:** 2026-08-17 (AI-assisted)
 
 ## Overall Health
 
-Public surface is coherent: consistent licensing, improved READMEs, profile README present, central hub functional, AI Operations Charter established. New geometry substrate (`tesseract-medium`) is live and verified runnable.
+Public surface remains coherent and stable. Consistent IOF Attribution License, improved READMEs across core repos, profile README live, central hub functional, AI Operations Charter in place. Geometry substrate (`tesseract-medium`) is live. AHR-Endpoint saw continued iteration (v0.2.1 userspace + Aya eBPF path).
 
 ## Core Projects
 
 | Project | Health | Notes |
 |---------|--------|-------|
 | IOF-Resonance-Core | Strong | Primary showcase, docs, live demo |
-| AHR-Endpoint | Good | License + packaging improved; core logic is prototype-level |
-| aetherius-nexus | Good | README now project-specific |
+| AHR-Endpoint | Good | v0.2.1 — graduated response + Aya eBPF loader wired; packaging and README solid |
+| aetherius-nexus | Good | Project-specific README; full-stack foundation ready |
 | moebius-llama | Good | Solid README + license; linked to geometry substrate |
-| iof-design-grammar | Good | Expanded |
+| iof-design-grammar | Good | Expanded conceptual framework |
 | IOF-Resonant-Hardware | Good | Spec present |
 | **tesseract-medium** | **Good** | **v0.1 shipped & verified** — lattice, Möbius dynamics, orientation tracker, examples |
 
@@ -29,25 +29,39 @@ Public surface is coherent: consistent licensing, improved READMEs, profile READ
 
 AI-first maintenance is authorized via the charter in the `community` repository. Human founder involvement is intentionally minimized to only those actions that cannot be delegated.
 
-## Recent Advances (2026-08-15)
+## Recent Advances
 
-- Formalized **Tesseract Medium Geometry** specification in `research`
-- Shipped runnable **tesseract-medium** implementation (φ-lattice, Möbius-twisted Mandelbrot/Julia, orientation monodromy)
-- Examples verified: orientation reversal on twist seam, hierarchical indexing, image generation
-- Cross-linked from research, docs, moebius-llama, and this hub
+- **2026-08-15**: Formalized Tesseract Medium Geometry; shipped runnable `tesseract-medium` v0.1; cross-linked across research, docs, moebius-llama, hub.
+- **2026-08-16**: Continued AHR-Endpoint work (enforcement, eBPF path, packaging).
 
 ## Next Natural Steps (AI-executable)
 
-- Further packaging and clarity on AHR and Möbius-Llama
+- Further packaging clarity and example usage on AHR-Endpoint and Möbius-Llama
 - Optional deeper integration of tesseract-medium primitives into Möbius-Llama / IOF experiments
-- Keep hub and profile accurate as the constellation evolves
-- Prepare clear instructions for the few remaining human-only actions (org creation, pinning)
+- Keep hub, profile README, and this status file accurate as the constellation evolves
 
-## Human-Only Actions (minimal)
+## Human-Only Actions (minimal & clear)
 
-1. Create a GitHub Organization named something like `PegaConstellation` (or preferred name) if desired for cleaner ownership.
-2. Transfer selected repos into that org when ready.
-3. Pin 4–6 key repos on the personal profile for visibility.
+These four items require your direct action in the GitHub UI (no AI can perform them):
+
+1. **Create GitHub Organization** (optional but recommended for cleaner ownership)  
+   → github.com/organizations/new → name it something like `PegaConstellation`
+
+2. **Transfer selected repos** into the org when ready  
+   → Repo Settings → General → Transfer ownership
+
+3. **Pin 4–6 key repos on your personal profile** (highest-visibility win right now)  
+   → Go to https://github.com/Immaculate1022  
+   → Scroll to “Popular repositories” / “Pinned” section → click **Customize your pins**  
+   → Select up to 6:  
+     - IOF-Resonance-Core  
+     - AHR-Endpoint  
+     - aetherius-nexus  
+     - moebius-llama  
+     - iof-design-grammar  
+     - pegaconstellation-hub  
+   → Click **Save pins**
+
 4. Any real-world legal / domain / financial steps (optional, not required for the open work to continue).
 
 Everything else can continue to be advanced by AI systems under the standing charter.
