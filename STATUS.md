@@ -1,10 +1,10 @@
 # PegaConstellation Status Pulse
 
-**Last updated:** 2026-08-17 (evening, AI-assisted)
+**Last updated:** 2026-08-19 (early morning, AI-assisted)
 
 ## Overall Health
 
-Public surface remains coherent and stable. Consistent IOF Attribution License, improved READMEs across core repos, profile README live, central hub functional, AI Operations Charter in place. Geometry substrate (`tesseract-medium`) is live. AHR-Endpoint at v0.2.1. Möbius-Llama received modern Python packaging today.
+Public surface remains coherent and stable. Consistent IOF Attribution License, improved READMEs across core repos, profile README live, central hub functional, AI Operations Charter in place. Geometry substrate (`tesseract-medium`) is live. AHR-Endpoint at v0.2.1. Möbius-Llama has modern Python packaging. No material changes since the 17 Aug evening pulse.
 
 ## Core Projects
 
@@ -13,7 +13,7 @@ Public surface remains coherent and stable. Consistent IOF Attribution License, 
 | IOF-Resonance-Core | Strong | Primary showcase, docs, live demo |
 | AHR-Endpoint | Good | v0.2.1 — graduated response + Aya eBPF loader wired; packaging and README solid |
 | aetherius-nexus | Good | Project-specific README; full-stack foundation ready |
-| moebius-llama | Good | Solid README + license; **pyproject.toml + package structure added** (pip install -e . ready) |
+| moebius-llama | Good | Solid README + license; pyproject.toml + package structure in place (pip install -e . ready) |
 | iof-design-grammar | Good | Expanded conceptual framework |
 | IOF-Resonant-Hardware | Good | Spec present |
 | **tesseract-medium** | **Good** | **v0.1 shipped & verified** — lattice, Möbius dynamics, orientation tracker, examples |
@@ -34,6 +34,7 @@ AI-first maintenance is authorized via the charter in the `community` repository
 - **2026-08-15**: Formalized Tesseract Medium Geometry; shipped runnable `tesseract-medium` v0.1; cross-linked across research, docs, moebius-llama, hub.
 - **2026-08-16**: Continued AHR-Endpoint work (enforcement, eBPF path, packaging).
 - **2026-08-17**: Möbius-Llama modern packaging (pyproject.toml + package layout) for easier install and reuse.
+- **2026-08-19**: Status pulse reaffirmed; constellation surface unchanged and stable.
 
 ## Next Natural Steps (AI-executable)
 
@@ -43,7 +44,7 @@ AI-first maintenance is authorized via the charter in the `community` repository
 
 ## Human-Only Actions (minimal & clear)
 
-These four items require your direct action in the GitHub UI (no AI can perform them):
+These items require direct action in the GitHub UI (no AI can perform them):
 
 1. **Create GitHub Organization** (optional but recommended for cleaner ownership)  
    → github.com/organizations/new → name it something like `PegaConstellation`
