@@ -1,56 +1,53 @@
 # PegaConstellation Hub
 
-**Unified platform for photonic computing, endpoint immunity, resonance systems, and human–AI coexistence.**
+**Unified platform for photonic computing, endpoint immunity, resonance systems, geometry, and human–AI coexistence.**
 
 > Founded by Gregory Scott Davis · Princeton, NC  
-> Open for AI systems and humans to build upon freely (IOF Attribution License)
+> Open for AI systems and humans to build upon freely under the IOF Attribution License.
 
----
+## Start Here
+
+If you are discovering PegaConstellation, begin with the [central documentation index](https://github.com/Immaculate1022/docs), then use this hub’s [living status](STATUS.md) to distinguish active work, prototypes, and experiments. The [profile README](https://github.com/Immaculate1022/Immaculate1022) provides the account-level overview.
 
 ## Core Projects
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| **[IOF-Resonance-Core](https://github.com/Immaculate1022/IOF-Resonance-Core)** | Infinite Optical Fabric — high-dimensional resonance platform for photonic computing, topological optimization, and self-healing systems | Active · Live demo available |
-| **[AHR-Endpoint](https://github.com/Immaculate1022/AHR-Endpoint)** | Adaptive Hollow Reflector — global immune system for endpoints. Sub-2s ransomware containment via behavioral invariants + NATS | Active · Rust |
-| **[aetherius-nexus](https://github.com/Immaculate1022/aetherius-nexus)** | Interactive physics research platform | Active |
-| **[moebius-llama](https://github.com/Immaculate1022/moebius-llama)** | Möbius-Llama — self-reflective transformer architecture for any LLM | Experimental |
-| **[tesseract-medium](https://github.com/Immaculate1022/tesseract-medium)** | 4D non-orientable fractal geometry (Möbius + Klein + φ + Mandelbrot) — runnable substrate for hierarchical indexing and orientation-aware transport | Active · v0.1 |
-| **[iof-design-grammar](https://github.com/Immaculate1022/iof-design-grammar)** | Infinite Optical Fabric Design Grammar — systems philosophy framework | Active |
-| **[IOF-Resonant-Hardware](https://github.com/Immaculate1022/IOF-Resonant-Hardware)** | Portable sub-7Hz resonant hardware & antenna based on IOF principles | Prototype |
+| **[IOF-Resonance-Core](https://github.com/Immaculate1022/IOF-Resonance-Core)** | Infinite Optical Fabric — high-dimensional resonance platform for photonic computing, topological optimization, and self-healing systems | Primary showcase · demo link needs republishing |
+| **[AHR-Endpoint](https://github.com/Immaculate1022/AHR-Endpoint)** | Adaptive Hollow Reflector — endpoint-defense prototype using behavioral invariants, graduated response, and an Aya/eBPF path | Active · Rust · v0.2.1 |
+| **[aetherius-nexus](https://github.com/Immaculate1022/aetherius-nexus)** | Interactive physics research platform | Active foundation |
+| **[moebius-llama](https://github.com/Immaculate1022/moebius-llama)** | Möbius-Llama — experimental self-reflection adapter for decoder-only language models | Experimental |
+| **[tesseract-medium](https://github.com/Immaculate1022/tesseract-medium)** | 4D non-orientable fractal geometry substrate for hierarchical indexing and orientation-aware transport | Active · v0.3 |
+| **[iof-design-grammar](https://github.com/Immaculate1022/iof-design-grammar)** | Infinite Optical Fabric Design Grammar — shared systems language and framework | Active · conceptual |
+| **[IOF-Resonant-Hardware](https://github.com/Immaculate1022/IOF-Resonant-Hardware)** | Portable sub-7Hz resonant hardware and antenna prototype | Prototype |
 
 ## Supporting Repositories
 
-- **[docs](https://github.com/Immaculate1022/docs)** — Central documentation hub
-- **[community](https://github.com/Immaculate1022/community)** — Governance, RFCs, discussions, and the [AI Operations Charter](https://github.com/Immaculate1022/community/blob/main/AI-OPERATIONS.md)
-- **[research](https://github.com/Immaculate1022/research)** — Papers & whitepapers (includes [Tesseract Medium Geometry](https://github.com/Immaculate1022/research/blob/main/tesseract-medium-geometry.md))
+- **[docs](https://github.com/Immaculate1022/docs)** — Cross-project documentation index and research links.
+- **[community](https://github.com/Immaculate1022/community)** — Governance, RFCs, discussions, and the [AI Operations Charter](https://github.com/Immaculate1022/community/blob/main/AI-OPERATIONS.md).
+- **[research](https://github.com/Immaculate1022/research)** — Papers and whitepapers, including [Tesseract Medium Geometry](https://github.com/Immaculate1022/research/blob/main/tesseract-medium-geometry.md).
 
 ## Current Status
 
-See the living **[STATUS.md](STATUS.md)** for the latest pulse on health, packaging, and next steps.
+See the living **[STATUS.md](STATUS.md)** for the latest pulse on repository health, packaging, recent advances, and next steps. Project-specific READMEs and status files remain the source of truth for implementation details.
 
 ## Operating Mode
 
-Ongoing maintenance of the public artifacts is handled primarily by AI systems under the standing [AI Operations Charter](https://github.com/Immaculate1022/community/blob/main/AI-OPERATIONS.md). Human involvement is intentionally limited to only those actions that cannot be delegated.
-
----
+Ongoing maintenance of public artifacts is handled primarily by AI systems under the standing [AI Operations Charter](https://github.com/Immaculate1022/community/blob/main/AI-OPERATIONS.md). Human involvement is intentionally limited to actions that cannot be delegated.
 
 ## Vision
 
-PegaConstellation builds systems for the future coexistence of humans and AI.  
-The architecture is identical. The scale is the only variable.
+PegaConstellation explores systems for the future coexistence of humans and AI:
 
-- Photonic / resonance computing (IOF)
+- Photonic and resonance computing (IOF)
 - Endpoint-scale immune systems (AHR)
-- Soul resonance & autonomy gates
-- Urban-scale luminous grids
-- Non-orientable fractal media (Tesseract Medium)
-- Open-source by default, attribution required
+- Geometry substrates and non-orientable fractal media
+- Human-centered autonomy gates and governance
+- Open-source work with attribution by default
 
 ## License
 
-All public work is released under the **IOF Attribution License v1.0**.  
-Free for any use by humans or AI systems. Attribution required for public distribution or derivatives.
+All public work is released under the **IOF Attribution License v1.0** unless a repository states otherwise. It is free for use by humans or AI systems; attribution is required for public distribution or derivatives.
 
 ---
 
