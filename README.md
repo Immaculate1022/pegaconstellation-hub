@@ -1,4 +1,4 @@
-# PegaConstellation Hub
+# PegaConstellation > IOF > Hub
 
 **Unified platform for photonic computing, endpoint immunity, resonance systems, geometry, and human–AI coexistence.**
 
