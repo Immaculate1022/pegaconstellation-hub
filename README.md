@@ -13,13 +13,20 @@ If you are discovering PegaConstellation, begin with the [central documentation 
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| **[IOF-Resonance-Core](https://github.com/Immaculate1022/IOF-Resonance-Core)** | Infinite Optical Fabric — high-dimensional resonance platform for photonic computing, topological optimization, and self-healing systems | Primary showcase · demo link needs republishing |
+| **[IOF-Resonance-Core](https://github.com/Immaculate1022/IOF-Resonance-Core)** | Infinite Optical Fabric — high-dimensional resonance platform for photonic computing, topological optimization, and self-healing systems | Primary showcase · [live demos](https://immaculate1022.github.io/IOF-Resonance-Core/) |
 | **[AHR-Endpoint](https://github.com/Immaculate1022/AHR-Endpoint)** | Adaptive Hollow Reflector — endpoint-defense prototype using behavioral invariants, graduated response, and an Aya/eBPF path | Active · Rust · v0.2.1 |
 | **[aetherius-nexus](https://github.com/Immaculate1022/aetherius-nexus)** | Interactive physics research platform | Active foundation |
 | **[moebius-llama](https://github.com/Immaculate1022/moebius-llama)** | Möbius-Llama — experimental self-reflection adapter for decoder-only language models | Experimental |
 | **[tesseract-medium](https://github.com/Immaculate1022/tesseract-medium)** | 4D non-orientable fractal geometry substrate for hierarchical indexing and orientation-aware transport | Active · v0.3 |
 | **[iof-design-grammar](https://github.com/Immaculate1022/iof-design-grammar)** | Infinite Optical Fabric Design Grammar — shared systems language and framework | Active · conceptual |
 | **[IOF-Resonant-Hardware](https://github.com/Immaculate1022/IOF-Resonant-Hardware)** | Portable sub-7Hz resonant hardware and antenna prototype | Prototype |
+
+### IOF live demos
+- [URP Soul Terminal](https://immaculate1022.github.io/IOF-Resonance-Core/)
+- [Forensic Telemetry Standalone](https://immaculate1022.github.io/IOF-Resonance-Core/ForensicTelemetry_Standalone.html)
+- [Unity Protocol Visualizer](https://immaculate1022.github.io/IOF-Resonance-Core/UnityProtocol_Visualizer.html)
+
+> If those URLs 404, open **IOF-Resonance-Core → Settings → Pages → Source: GitHub Actions** once, then re-run the **Deploy GitHub Pages** workflow.
 
 ## Supporting Repositories
 
