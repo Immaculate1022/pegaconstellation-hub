@@ -22,9 +22,9 @@ Public surface remains coherent and stable. Consistent IOF Attribution License, 
 
 | Project | Publicly supported today | Not yet established |
 |---|---|---|
-| **AHR-Endpoint** | Rust prototype with graduated-response concepts, an Aya/eBPF loader path, tests and archived candidate modules. | A production enforcement system, safe host isolation in the wild, or validated behavioral-detection benchmarks.
-| **Möbius-Llama** | Python package layout and editable-install metadata, plus experimental adapter code. | A verified stranger-run install/import path, published model release, or benchmarked advantage over a baseline.
-| **IOF-Resonance-Core** | Visualizations, topographic-ascent research engines, schema, tests, and smoke checks. | Measured photonic hardware performance, a validated cosmic mapping, or a currently active Pages deployment.
+| **AHR-Endpoint** | Rust prototype with graduated-response concepts, an Aya/eBPF loader path, tests and archived candidate modules. | A production enforcement system, safe host isolation in the wild, or validated behavioral-detection benchmarks. |
+| **Möbius-Llama** | Python package layout and editable-install metadata, plus experimental adapter code. | A verified stranger-run install/import path, published model release, or benchmarked advantage over a baseline. |
+| **IOF-Resonance-Core** | Visualizations, topographic-ascent research engines, schema, tests, and smoke checks. | Measured photonic hardware performance, a validated cosmic mapping, or a currently active Pages deployment. |
 
 These boundaries are intentionally conservative. Repository presence, passing local tests, conceptual diagrams, and design targets should not be read as evidence of deployed production systems or measured physical results.
 
