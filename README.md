@@ -7,36 +7,36 @@
 
 ## Start Here
 
-If you are discovering PegaConstellation, begin with the [central documentation index](https://github.com/Immaculate1022/docs), then use this hub’s [living status](STATUS.md) to distinguish active work, prototypes, and experiments. The [profile README](https://github.com/Immaculate1022/Immaculate1022) provides the account-level overview.
+1. **[WHAT_RUNS_TODAY.md](WHAT_RUNS_TODAY.md)** — short, honest list of what actually works right now  
+2. **[STATUS.md](STATUS.md)** — living health pulse, prototype boundaries, next steps  
+3. **[docs](https://github.com/Immaculate1022/docs)** — broader documentation index  
+4. **[Profile README](https://github.com/Immaculate1022/Immaculate1022)** — account-level overview
 
 ## Core Projects
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| **[IOF-Resonance-Core](https://github.com/Immaculate1022/IOF-Resonance-Core)** | Infinite Optical Fabric — high-dimensional resonance platform for photonic computing, topological optimization, and self-healing systems | Primary showcase · [live demos](https://immaculate1022.github.io/IOF-Resonance-Core/) |
-| **[AHR-Endpoint](https://github.com/Immaculate1022/AHR-Endpoint)** | Adaptive Hollow Reflector — endpoint-defense prototype using behavioral invariants, graduated response, and an Aya/eBPF path | Active · Rust · v0.2.1 |
-| **[aetherius-nexus](https://github.com/Immaculate1022/aetherius-nexus)** | Interactive physics research platform | Active foundation |
-| **[moebius-llama](https://github.com/Immaculate1022/moebius-llama)** | Möbius-Llama — experimental self-reflection adapter for decoder-only language models | Experimental |
-| **[tesseract-medium](https://github.com/Immaculate1022/tesseract-medium)** | 4D non-orientable fractal geometry substrate for hierarchical indexing and orientation-aware transport | Active · v0.3 |
-| **[iof-design-grammar](https://github.com/Immaculate1022/iof-design-grammar)** | Infinite Optical Fabric Design Grammar — shared systems language and framework | Active · conceptual |
-| **[IOF-Resonant-Hardware](https://github.com/Immaculate1022/IOF-Resonant-Hardware)** | Portable sub-7Hz resonant hardware and antenna prototype | Prototype |
+| **[IOF-Resonance-Core](https://github.com/Immaculate1022/IOF-Resonance-Core)** | Infinite Optical Fabric — high-dimensional resonance platform | Primary showcase · local HTML demos work; Pages currently 404 |
+| **[AHR-Endpoint](https://github.com/Immaculate1022/AHR-Endpoint)** | Adaptive Hollow Reflector — behavioral endpoint-defense prototype | Active · Rust · v0.2.1 |
+| **[aetherius-nexus](https://github.com/Immaculate1022/aetherius-nexus)** | Interactive physics research platform | Foundation ready |
+| **[moebius-llama](https://github.com/Immaculate1022/moebius-llama)** | Experimental self-reflection adapter for decoder-only LLMs | Experimental · installable |
+| **[tesseract-medium](https://github.com/Immaculate1022/tesseract-medium)** | 4D non-orientable fractal geometry substrate | Active · v0.3 |
+| **[iof-design-grammar](https://github.com/Immaculate1022/iof-design-grammar)** | Shared systems language and design framework | Conceptual |
+| **[IOF-Resonant-Hardware](https://github.com/Immaculate1022/IOF-Resonant-Hardware)** | Portable resonant hardware / antenna prototype | Prototype |
 
-### IOF live demos
-- [URP Soul Terminal](https://immaculate1022.github.io/IOF-Resonance-Core/)
-- [Forensic Telemetry Standalone](https://immaculate1022.github.io/IOF-Resonance-Core/ForensicTelemetry_Standalone.html)
-- [Unity Protocol Visualizer](https://immaculate1022.github.io/IOF-Resonance-Core/UnityProtocol_Visualizer.html)
-
-> **Current check (2026-09-07):** all three documented URLs return HTTP 404. Restoring them requires a human GitHub UI action: open **IOF-Resonance-Core → Settings → Pages → Source: GitHub Actions**, then re-run the **Deploy GitHub Pages** workflow.
+### IOF demos
+- **Local (works now):** open `ForensicTelemetry_Standalone.html` or `UnityProtocol_Visualizer.html` from the Resonance-Core repo
+- **GitHub Pages:** documented URLs return HTTP 404 as of 2026-09-07. Restore via **Settings → Pages** if desired.
 
 ## Supporting Repositories
 
-- **[docs](https://github.com/Immaculate1022/docs)** — Cross-project documentation index and research links.
-- **[community](https://github.com/Immaculate1022/community)** — Governance, RFCs, discussions, and the [AI Operations Charter](https://github.com/Immaculate1022/community/blob/main/AI-OPERATIONS.md).
-- **[research](https://github.com/Immaculate1022/research)** — Papers and whitepapers, including [Tesseract Medium Geometry](https://github.com/Immaculate1022/research/blob/main/tesseract-medium-geometry.md).
+- **[docs](https://github.com/Immaculate1022/docs)** — Cross-project documentation index
+- **[community](https://github.com/Immaculate1022/community)** — Governance + [AI Operations Charter](https://github.com/Immaculate1022/community/blob/main/AI-OPERATIONS.md)
+- **[research](https://github.com/Immaculate1022/research)** — Papers and whitepapers
 
 ## Current Status
 
-See the living **[STATUS.md](STATUS.md)** for the latest pulse on repository health, packaging, recent advances, and next steps. Project-specific READMEs and status files remain the source of truth for implementation details.
+See **[STATUS.md](STATUS.md)** and **[WHAT_RUNS_TODAY.md](WHAT_RUNS_TODAY.md)**.
 
 ## Operating Mode
 
@@ -54,7 +54,7 @@ PegaConstellation explores systems for the future coexistence of humans and AI:
 
 ## License
 
-All public work is released under the **IOF Attribution License v1.0** unless a repository states otherwise. It is free for use by humans or AI systems; attribution is required for public distribution or derivatives.
+All public work is released under the **IOF Attribution License v1.0** unless a repository states otherwise. Free for use by humans or AI systems; attribution required for public distribution or derivatives.
 
 ---
 
