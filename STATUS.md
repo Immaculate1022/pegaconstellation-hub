@@ -4,13 +4,13 @@
 
 ## Overall Health
 
-Public surface remains coherent and stable. Consistent IOF Attribution License, improved READMEs across core repos, profile README live, central hub functional, and AI Operations Charter in place. Geometry substrate (`tesseract-medium`) advanced to **v0.3** with multilinear algebra / tensor layer. AHR-Endpoint remains a v0.2.1 security prototype. Möbius-Llama now has a verified editable-install import path. IOF-Resonance-Core remains the primary showcase, while its documented GitHub Pages paths currently return HTTP 404.
+Public surface remains coherent and stable. Consistent IOF Attribution License, improved READMEs across core repos, profile README live, central hub functional, and AI Operations Charter in place. Geometry substrate (`tesseract-medium`) advanced to **v0.3** with multilinear algebra / tensor layer. AHR-Endpoint remains a v0.2.1 security prototype. Möbius-Llama now has a verified editable-install import path. IOF-Resonance-Core remains the primary showcase; its README now prioritizes local HTML demos and explicitly notes that documented GitHub Pages paths currently return HTTP 404.
 
 ## Core Projects
 
 | Project | Health | Notes |
 |---------|--------|-------|
-| IOF-Resonance-Core | Strong | Primary showcase, extensive docs; documented Pages paths return HTTP 404 and require a hosting decision |
+| IOF-Resonance-Core | Strong | Primary showcase, extensive docs; README updated so local HTML is primary and Pages 404 is stated clearly |
 | AHR-Endpoint | Good | v0.2.1 — graduated response + Aya eBPF loader wired; active path remains a prototype; candidate scoring modules are archived pending integration tests |
 | aetherius-nexus | Good | Project-specific README; full-stack foundation ready |
 | moebius-llama | Good | `pip install -e . --no-deps` verified; `from moebius_llama import patch_any_model` imports successfully |
@@ -24,7 +24,7 @@ Public surface remains coherent and stable. Consistent IOF Attribution License, 
 |---|---|---|
 | **AHR-Endpoint** | Rust prototype with graduated-response concepts, an Aya/eBPF loader path, tests and archived candidate modules. | A production enforcement system, safe host isolation in the wild, or validated behavioral-detection benchmarks. |
 | **Möbius-Llama** | Python package layout, editable-install metadata, experimental adapter code, and a verified local import path. | A published model release, independent stranger-run confirmation, or benchmarked advantage over a baseline. |
-| **IOF-Resonance-Core** | Visualizations, topographic-ascent research engines, schema, tests, and smoke checks. | Measured photonic hardware performance, a validated cosmic mapping, or a currently active Pages deployment. |
+| **IOF-Resonance-Core** | Visualizations, topographic-ascent research engines, schema, tests, smoke checks, and local HTML demos. | Measured photonic hardware performance, a validated cosmic mapping, or a currently active Pages deployment. |
 
 These boundaries are intentionally conservative. Repository presence, passing local tests, conceptual diagrams, and design targets should not be read as evidence of deployed production systems or measured physical results.
 
@@ -52,10 +52,11 @@ AI-first maintenance is authorized via the charter in the `community` repository
 - **2026-09-05**: IOF-Resonance-Core integrated the topographic-ascent candidate with 11 passing Python tests and a passing smoke script; physical photonic performance remains unvalidated.
 - **2026-09-07**: Added the supplied IOF Resonance Core diagram and published external ecosystem review; both are labeled as conceptual or opinion material rather than measured results.
 - **2026-09-07**: Verified Möbius-Llama with `pip install -e . --no-deps` and `from moebius_llama import patch_any_model`; IOF-Resonance-Core Pages checks confirmed the documented paths return HTTP 404.
+- **2026-09-07**: IOF-Resonance-Core README updated — local HTML demos are now primary; Pages links are marked as currently 404 until re-enabled in repo Settings.
 
 ## Next Natural Steps (AI-executable)
 
-- Decide whether to restore the IOF-Resonance-Core Pages site; the documented root and two standalone demo paths currently return HTTP 404, and the workflow is intentionally not a push-triggered deployment.
+- Optional: restore IOF-Resonance-Core Pages via Settings → Pages (human action) or keep local-only demos.
 - Obtain an independent stranger-run Möbius-Llama install/import confirmation and add a minimal smoke test before describing the adapter as reusable beyond local verification.
 - Add a dry-run and audit path before any AHR enforcement demonstration; merge or drop archived scoring candidates only after integration tests.
 - Deeper integration of tesseract-medium primitives (especially tensors + orientation) into Möbius-Llama / IOF experiments.
@@ -85,7 +86,9 @@ These items require direct action in the GitHub UI (no AI can perform them):
      - pegaconstellation-hub  
    → Click **Save pins**
 
-4. Any real-world legal / domain / financial steps (optional, not required for the open work to continue).
+4. **Optional Pages restore** for IOF-Resonance-Core: Settings → Pages → choose source and re-run once.
+
+5. Any real-world legal / domain / financial steps (optional, not required for the open work to continue).
 
 Everything else can continue to be advanced by AI systems under the standing charter.
 
