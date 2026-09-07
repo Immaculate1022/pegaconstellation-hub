@@ -11,7 +11,7 @@ Honest snapshot of the public PegaConstellation surface. Prototypes and research
 | **AHR-Endpoint** | `cargo build --release` + `cargo test`; dry-run audit script | v0.2.1 prototype. Isolate before any enforcement. |
 | **moebius-llama** | `pip install -e .` then `from moebius_llama import patch_any_model` | Experimental adapter. No published model or benchmark claim. |
 | **tesseract-medium** | Import and run geometry / tensor examples (v0.3) | Strongest recent geometry substrate. |
-| **aetherius-nexus** | Full-stack foundation present | Still early; most interactive features on the TODO list. |
+| **aetherius-nexus** | `pnpm install` + `pnpm dev` (full-stack foundation) | Interactive research tools still on the roadmap. |
 | **iof-design-grammar** | Read the conceptual framework | Systems language, not a runtime. |
 | **Hub + STATUS** | This file + [STATUS.md](STATUS.md) | Living map. |
 
@@ -52,6 +52,16 @@ cd tesseract-medium
 # Follow its README for v0.3 lattice / tensor examples
 ```
 
+### Aetherius Nexus (foundation)
+```bash
+git clone https://github.com/Immaculate1022/aetherius-nexus.git
+cd aetherius-nexus
+pnpm install
+pnpm dev      # development server
+pnpm check    # TypeScript check
+```
+Expect an app shell / foundation, not the full set of photonic simulators yet.
+
 ## Attribution (required for public use)
 
 ```
@@ -64,5 +74,6 @@ Infinite Optical Fabric by Gregory Scott Davis, Princeton, NC.
 - No production ransomware containment numbers
 - No published model weights or stranger-validated reasoning gains for Möbius-Llama
 - No active GitHub Pages demos for Resonance-Core until re-enabled in Settings
+- No finished interactive research lab in Aetherius Nexus (foundation only)
 
 For the living pulse and next steps, see **[STATUS.md](STATUS.md)**.
