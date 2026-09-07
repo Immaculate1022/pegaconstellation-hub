@@ -4,16 +4,16 @@
 
 ## Overall Health
 
-Public surface remains coherent and stable. Consistent IOF Attribution License, improved READMEs across core repos, profile README live, central hub functional, AI Operations Charter in place. Geometry substrate (`tesseract-medium`) advanced to **v0.3** with multilinear algebra / tensor layer. AHR-Endpoint at v0.2.1. Möbius-Llama has modern Python packaging. IOF-Resonance-Core remains the primary showcase (note: GitHub Pages live demo currently 404 — needs re-publish or path check).
+Public surface remains coherent and stable. Consistent IOF Attribution License, improved READMEs across core repos, profile README live, central hub functional, and AI Operations Charter in place. Geometry substrate (`tesseract-medium`) advanced to **v0.3** with multilinear algebra / tensor layer. AHR-Endpoint remains a v0.2.1 security prototype. Möbius-Llama now has a verified editable-install import path. IOF-Resonance-Core remains the primary showcase, while its documented GitHub Pages paths currently return HTTP 404.
 
 ## Core Projects
 
 | Project | Health | Notes |
 |---------|--------|-------|
-| IOF-Resonance-Core | Strong | Primary showcase, extensive docs; live demo link currently returns 404 |
+| IOF-Resonance-Core | Strong | Primary showcase, extensive docs; documented Pages paths return HTTP 404 and require a hosting decision |
 | AHR-Endpoint | Good | v0.2.1 — graduated response + Aya eBPF loader wired; active path remains a prototype; candidate scoring modules are archived pending integration tests |
 | aetherius-nexus | Good | Project-specific README; full-stack foundation ready |
-| moebius-llama | Good | pyproject.toml + package structure are present; editable-install import path still needs a clean stranger-run verification |
+| moebius-llama | Good | `pip install -e . --no-deps` verified; `from moebius_llama import patch_any_model` imports successfully |
 | iof-design-grammar | Good | Expanded conceptual framework |
 | IOF-Resonant-Hardware | Good | Spec present |
 | **tesseract-medium** | **Strong** | **v0.3 shipped** — lattice, Möbius dynamics, orientation tracker, LayeredTesseractMedium, kaleidoscopic/mirror helpers, **new tensors.py** (SO(4)/SO(5), φ-harmonic rotations, hierarchical indices, parallel transport) |
@@ -23,7 +23,7 @@ Public surface remains coherent and stable. Consistent IOF Attribution License, 
 | Project | Publicly supported today | Not yet established |
 |---|---|---|
 | **AHR-Endpoint** | Rust prototype with graduated-response concepts, an Aya/eBPF loader path, tests and archived candidate modules. | A production enforcement system, safe host isolation in the wild, or validated behavioral-detection benchmarks. |
-| **Möbius-Llama** | Python package layout and editable-install metadata, plus experimental adapter code. | A verified stranger-run install/import path, published model release, or benchmarked advantage over a baseline. |
+| **Möbius-Llama** | Python package layout, editable-install metadata, experimental adapter code, and a verified local import path. | A published model release, independent stranger-run confirmation, or benchmarked advantage over a baseline. |
 | **IOF-Resonance-Core** | Visualizations, topographic-ascent research engines, schema, tests, and smoke checks. | Measured photonic hardware performance, a validated cosmic mapping, or a currently active Pages deployment. |
 
 These boundaries are intentionally conservative. Repository presence, passing local tests, conceptual diagrams, and design targets should not be read as evidence of deployed production systems or measured physical results.
@@ -51,11 +51,12 @@ AI-first maintenance is authorized via the charter in the `community` repository
 - **2026-09-04**: AHR-Endpoint README clarified its Rust/security prototype boundary; candidate scoring modules remain archived and non-enforcing.
 - **2026-09-05**: IOF-Resonance-Core integrated the topographic-ascent candidate with 11 passing Python tests and a passing smoke script; physical photonic performance remains unvalidated.
 - **2026-09-07**: Added the supplied IOF Resonance Core diagram and published external ecosystem review; both are labeled as conceptual or opinion material rather than measured results.
+- **2026-09-07**: Verified Möbius-Llama with `pip install -e . --no-deps` and `from moebius_llama import patch_any_model`; IOF-Resonance-Core Pages checks confirmed the documented paths return HTTP 404.
 
 ## Next Natural Steps (AI-executable)
 
-- Enable or re-publish the IOF-Resonance-Core GitHub Pages live demo only after the Pages site is configured; the current workflow is intentionally not a push-triggered deployment.
-- Verify the Möbius-Llama editable install with `pip install -e .` followed by a clean package import.
+- Decide whether to restore the IOF-Resonance-Core Pages site; the documented root and two standalone demo paths currently return HTTP 404, and the workflow is intentionally not a push-triggered deployment.
+- Obtain an independent stranger-run Möbius-Llama install/import confirmation and add a minimal smoke test before describing the adapter as reusable beyond local verification.
 - Add a dry-run and audit path before any AHR enforcement demonstration; merge or drop archived scoring candidates only after integration tests.
 - Deeper integration of tesseract-medium primitives (especially tensors + orientation) into Möbius-Llama / IOF experiments.
 - Ship one small working Nexus visualization before expanding the remaining TODO surface.

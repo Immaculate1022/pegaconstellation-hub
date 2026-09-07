@@ -26,7 +26,7 @@ If you are discovering PegaConstellation, begin with the [central documentation 
 - [Forensic Telemetry Standalone](https://immaculate1022.github.io/IOF-Resonance-Core/ForensicTelemetry_Standalone.html)
 - [Unity Protocol Visualizer](https://immaculate1022.github.io/IOF-Resonance-Core/UnityProtocol_Visualizer.html)
 
-> If those URLs 404, open **IOF-Resonance-Core → Settings → Pages → Source: GitHub Actions** once, then re-run the **Deploy GitHub Pages** workflow.
+> **Current check (2026-09-07):** all three documented URLs return HTTP 404. Restoring them requires a human GitHub UI action: open **IOF-Resonance-Core → Settings → Pages → Source: GitHub Actions**, then re-run the **Deploy GitHub Pages** workflow.
 
 ## Supporting Repositories
 
