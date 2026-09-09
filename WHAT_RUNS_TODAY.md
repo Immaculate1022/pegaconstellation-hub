@@ -1,13 +1,13 @@
 # What Runs Today
 
-**Last checked:** 2026-09-07  
+**Last checked:** 2026-09-09  
 Honest snapshot of the public PegaConstellation surface. Prototypes and research code only — not production systems or measured physical results.
 
 ## Quick map
 
 | Project | What you can actually do right now | Notes |
 |---------|------------------------------------|-------|
-| **IOF-Resonance-Core** | Open HTML files locally; run Python smoke tests | Pages currently 404. Local demos work. |
+| **IOF-Resonance-Core** | Open HTML files locally; run Python smoke tests | Local demos work. Pages workflow ready; live site waits on Settings. |
 | **AHR-Endpoint** | `cargo build --release` + `cargo test`; dry-run audit script | v0.2.1 prototype. Isolate before any enforcement. |
 | **moebius-llama** | `pip install -e .` then `from moebius_llama import patch_any_model` | Experimental adapter. No published model or benchmark claim. |
 | **tesseract-medium** | Import and run geometry / tensor examples (v0.3) | Strongest recent geometry substrate. |
@@ -17,15 +17,21 @@ Honest snapshot of the public PegaConstellation surface. Prototypes and research
 
 ## Concrete commands that work
 
-### IOF-Resonance-Core (local demos)
+### IOF-Resonance-Core (local demos — preferred path)
 ```bash
 git clone https://github.com/Immaculate1022/IOF-Resonance-Core.git
 cd IOF-Resonance-Core
 # Open in browser:
 #   ForensicTelemetry_Standalone.html
 #   UnityProtocol_Visualizer.html
+#   index.html
 bash scripts/smoke_all.sh   # if present
 ```
+
+Intended Pages URLs (after Settings → Pages → GitHub Actions):
+- https://immaculate1022.github.io/IOF-Resonance-Core/
+- …/ForensicTelemetry_Standalone.html
+- …/UnityProtocol_Visualizer.html
 
 ### AHR-Endpoint (userspace prototype)
 ```bash
@@ -73,7 +79,7 @@ Infinite Optical Fabric by Gregory Scott Davis, Princeton, NC.
 - No measured photonic hardware performance
 - No production ransomware containment numbers
 - No published model weights or stranger-validated reasoning gains for Möbius-Llama
-- No active GitHub Pages demos for Resonance-Core until re-enabled in Settings
+- No active GitHub Pages demos for Resonance-Core until the Settings flip
 - No finished interactive research lab in Aetherius Nexus (foundation only)
 
 For the living pulse and next steps, see **[STATUS.md](STATUS.md)**.

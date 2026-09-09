@@ -16,7 +16,7 @@
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| **[IOF-Resonance-Core](https://github.com/Immaculate1022/IOF-Resonance-Core)** | Infinite Optical Fabric — high-dimensional resonance platform | Primary showcase · local HTML demos work; Pages currently 404 |
+| **[IOF-Resonance-Core](https://github.com/Immaculate1022/IOF-Resonance-Core)** | Infinite Optical Fabric — high-dimensional resonance platform | Primary showcase · local HTML demos work; Pages workflow ready |
 | **[AHR-Endpoint](https://github.com/Immaculate1022/AHR-Endpoint)** | Adaptive Hollow Reflector — behavioral endpoint-defense prototype | Active · Rust · v0.2.1 |
 | **[aetherius-nexus](https://github.com/Immaculate1022/aetherius-nexus)** | Interactive physics research platform | Foundation ready |
 | **[moebius-llama](https://github.com/Immaculate1022/moebius-llama)** | Experimental self-reflection adapter for decoder-only LLMs | Experimental · installable |
@@ -25,8 +25,8 @@
 | **[IOF-Resonant-Hardware](https://github.com/Immaculate1022/IOF-Resonant-Hardware)** | Portable resonant hardware / antenna prototype | Prototype |
 
 ### IOF demos
-- **Local (works now):** open `ForensicTelemetry_Standalone.html` or `UnityProtocol_Visualizer.html` from the Resonance-Core repo
-- **GitHub Pages:** documented URLs return HTTP 404 as of 2026-09-07. Restore via **Settings → Pages** if desired.
+- **Local (works now):** open `ForensicTelemetry_Standalone.html`, `UnityProtocol_Visualizer.html`, or `index.html` from the Resonance-Core repo
+- **GitHub Pages:** workflow is ready. One human step remains — Settings → Pages → Source: GitHub Actions. Until then the `*.github.io` URLs are intended targets, not live.
 
 ## Supporting Repositories
 
