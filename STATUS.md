@@ -47,6 +47,16 @@ Until that click, treat the `*.github.io` URLs as intended targets, not live end
 
 Everything else continues under the standing AI Operations Charter.
 
+## Recent Advances
+
+- **2026-09-12**: Added an IOF v2 associative-resonance research note. It records external quantum-optical work as related research and defines simulation-first metrics; it does not claim a spin-glass implementation, cavity-QED hardware, quantum memory, or measured photonic performance in this constellation.
+
+## Next Natural Steps
+
+Run the IOF v2 associative-resonance simulator against exact-lookup and Hopfield baselines before considering any hardware escalation. Keep the current local HTML demos as the reliable visual path until the human Pages Settings step is completed and the URLs are rechecked.
+
+Everything else continues under the standing AI Operations Charter.
+
 ---
 
 *This file is intended to be updated periodically by supporting AI systems.*
